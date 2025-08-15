@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull') { // Define a stage
             steps {
-                git branch: 'main', url: 'https://github.com/iamtruptimane/Terraform-projects.git'
+                git branch: 'main', url: 'https://github.com/Vishu-Nargunde99/Wordpress_deployment.git'
             }
         }
         stage('build') {
